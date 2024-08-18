@@ -4,5 +4,10 @@ export declare global {
       SUPABASE_URL: string;
       SUPABASE_KEY: string;
     }
+
+    interface Module {
+      /** HMR */
+      hot: any;
+    }
   }
 }
